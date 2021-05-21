@@ -30,21 +30,21 @@ Commands for ubuntu terminal:
 
 **For client file:**
 
-To complie : ``` g++ <source_filename> -o <any name> 
-                eg: g++ client1.cpp -o client ```
+To complie : ```$ g++ <source_filename> -o <any name> 
+                eg: $ g++ client1.cpp -o client ```
                 
-To Run : ``` ./<any name*> <host name> <Port number>
-            eg: ./client localhost 8000 ```
+To Run : ```$ ./<any name*> <host name> <Port number>
+            eg:$ ./client localhost 8000 ```
             
             *this should be same as given while compiling tha file
 
-**For server file:
-**
-To complie : ``` g++ <source_filename> -o <any name>
-                eg: g++ server1.cpp -o server ```
+**For server file:**
+  
+To complie : ```$ g++ <source_filename> -o <any name>
+                eg:$ g++ server1.cpp -o server ```
                 
-To Run : ``` ./<any name*> <Port number>
-            eg: ./server 8000 ```
+To Run : ```$ ./<any name*> <Port number>
+            eg:$ ./server 8000 ```
             
             *this should be same as given while compiling that file
             
